@@ -1,0 +1,777 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+header p {
+    text-align: center;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.Header{
+    background-color: darkblue;
+    color: rgb(255, 217, 0);
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.logo h2 {
+    padding: 20px 0;
+}
+
+.logo a {
+    font-family: 'Merriweather', serif;
+    color: darkblue;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.logo img {
+    width: 45px;
+    background-color: white;
+    margin: 10px;
+}
+
+.H1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.H1 .right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul {
+    padding: 28px 20px 20px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 15px 20px;
+    color: darkblue;
+    transition: .3s;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(255, 217, 0);
+    border-radius: 20px;
+}
+
+.social {
+    padding: 23px 10px 10px;
+}
+
+.social i {
+    padding: 5px 10px;
+    font-size: 23px;
+    color: darkblue;
+}
+
+.social i:nth-child(2) {
+    margin: 20px;
+}
+
+/* ..............END............. */
+
+/* ..........SECTION-1........... */
+
+.Banner {
+    background-color: darkblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.S1 {
+    padding: 0 30px;
+}
+
+.S1 .left {
+    color: white;
+    padding: 100px 10px;
+    width: 43%;
+}
+
+.S1 h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 65px;
+}
+
+.S1 .left p {
+    margin: 30px 0;
+    font-size: 25px;
+}
+
+.S1 .left span:nth-child(3) {
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(255, 217, 0);
+    font-family: 'Domine', serif;
+}
+
+.S1 .left sup {
+    font-size: 35px;
+    font-weight: bolder;
+    text-decoration: line-through;
+    color: rgb(147, 147, 147);
+    font-family: 'Domine', serif;
+
+}
+
+.S1 .left button {
+    display: block;
+    font-size: 18px;
+    background-color: rgb(255, 217, 0);
+    padding: 17px 50px;
+    border: 0;
+    border-radius: 30px;
+    color: whitesmoke;
+    margin: 20px 0;
+    transition: .6s;
+}
+
+.S1 .left button:hover {
+    background-color: white;
+    color: red;
+}
+
+.S1 .left img {
+    position: absolute;
+    width: 70%;
+    top: -82px;
+    right: -178px;
+    transform: rotate(320deg);
+}
+
+.S1 .doller {
+    font-family: 'Domine', serif;
+    border-radius: 50%;
+    background-color: rgb(255, 217, 0);
+    text-align: center;
+    position: absolute;
+    right: 29%;
+    top: 35%;
+}
+
+.S1 .doller span {
+    color: darkblue;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Domine', serif;
+}
+
+.S1 a {
+    display: block;
+    font-size: 25px;
+    margin: 30px 50px;
+    color: darkblue;
+}
+
+/* ..............END............. */
+
+/* ..........SECTION-2........... */
+
+.S2 {
+    padding: 20px;
+}
+
+.S2 h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0 10px;
+    color: darkblue;
+    font-size: 40px;
+}
+
+.S2 .row1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.S2 .IMG {
+    width: 32.33%;
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    margin-top: 15px;
+}
+
+.S2 .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.S2 .left {
+    width: 55%;
+    color: darkblue;
+    padding: 20px;
+}
+
+.S2 .right {
+    width: 45%;
+}
+
+.S2 .left p {
+    padding-left: 5px;
+    padding-right: 75px;
+}
+
+.S2 .left a {
+    padding: 5px 10px;
+    background-color: white;
+    color: darkblue;
+    border-radius: 30px;
+    display: table;
+    margin-top: 15px;
+}
+
+.S2 .left a:hover {
+    background-color: rgb(255, 217, 0);
+}
+
+.S2 .left p:nth-child(2) {
+    margin: 0 0 20px;
+}
+
+.S2 .pics .IMG:nth-child(2) {
+    margin: 15px 15px 0;
+}
+
+.S2 .pics .IMG:nth-child(5) {
+    margin: 15px 15px 0;
+}
+
+.S2 .bottom {
+    display: flex;
+    justify-content: space-between;
+    color: darkblue;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.S2 .bottom .b {
+    display: block;
+    padding: 10px;
+}
+
+.S2 .bottom i {
+    font-size: 30px;
+    padding: 10px;
+    color: darkblue;
+    transition: 1s;
+}
+
+.S2 .bottom i:hover {
+    transform: rotate(360deg) translateZ(0);
+}
+
+
+/* ..............END............. */
+
+
+
+/* ..........SECTION-3........... */
+
+.M3 {
+    background-color: rgb(243, 243, 243);
+}
+
+.S3 {
+    display: flex;
+    padding: 10px;
+    color: darkblue;
+}
+
+.S3 .left {
+    width: 50%;
+    padding: 70px 55px 0 20px;
+}
+
+.S3 .left h2 {
+    font-size: 60px;
+    line-height: 55px;
+}
+
+.S3 .left p {
+    margin: 20px 0;
+}
+
+.S3 .left .r3 {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(158, 160, 179);
+    width: 370px;
+}
+
+.S3 .left .r3 span{
+    font-size: 20px;
+}
+
+.S3 .left button {
+    background-color: rgb(255, 217, 0);
+    padding: 10PX 25PX;
+    border: 0;
+    border-radius: 30PX;
+    color: whitesmoke;
+    margin: 30px 0;
+    transition: .6s;
+}
+
+.S3 .left button:hover {
+    color: red;
+    background-color: whitesmoke;
+}
+
+.S3 .right {
+    width: 50%;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.S3 .right video {
+    width: 100%;
+    height: 100%;
+}
+
+.S3 .right i {
+    font-size: 25px;
+}
+
+/* ..............END............. */
+
+
+/* ..........SECTION-4........... */
+
+.S4 {
+    padding: 20px;
+    color: darkblue;
+}
+
+.S4 h2 {
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0 30px;
+    font-size: 60px;
+}
+
+.S4 .pics {
+    display: flex;
+}
+
+.S4 .Box {
+    width: 20%;
+    border: 1px solid rgb(169, 169, 169);
+    padding-bottom: 30px;
+    border-top: 0;
+}
+
+.S4 .Box:nth-child(1) {
+    border-right: 0;
+}
+
+.S4 .Box:nth-child(2) {
+    border-right: 0;
+}
+
+.S4 .Box:nth-child(3) {
+    border-right: 0;
+}
+
+.S4 .Box:nth-child(4) {
+    border-right: 0;
+}
+
+.S4 .Box p {
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.S4 .IMG img {
+    width: 101%;
+    height: 100%;
+    border: 0;
+}
+
+.S4 span {
+    font-size: 20px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.S4 i {
+    color: rgb(255, 217, 0);
+    padding: 3px;
+}
+
+.S4 .Box i:nth-child(4) {
+    margin-left: 5px;
+}
+
+
+/* ..............END............. */
+
+/* ..........SECTION-5........... */
+
+.M5 {
+    background-color: rgb(243, 243, 243);
+}
+
+.S5 {
+    padding: 20px;
+    color: darkblue;
+}
+
+.S5 h2 {
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.S5 p {
+    text-align: center;
+    color: rgb(147, 147, 147);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.S5 p:nth-child(2) {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.S5 .Boxes {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.S5 .box {
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: darkblue;
+}
+
+.S5 h3 {
+    padding: 10px;
+}
+
+.S5 a i {
+    font-size: 25px;
+    padding: 10px;
+    color: darkblue;
+    transition: 1s;
+}
+.S5 a i:hover{
+    transform: rotate(360deg) translateZ(0);
+}
+
+/* ..............END............. */
+
+/* ..........SECTION-6........... */
+
+.S6 {
+    padding: 20px;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.S6 h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.S6 .pics {
+    display: flex;
+    padding: 10px;
+}
+
+.S6 .pics .box {
+    width: 33.33%;
+}
+
+.S6 .IMG img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.S6 .box:nth-child(2) {
+    margin: 0 15px;
+}
+
+.S6 .box span {
+    padding: 10px 0;
+    display: table;
+    font-size: 14px;
+    color: rgb(147, 147, 147);
+}
+
+.S6 p {
+    padding: 10px 0;
+    line-height: 25px;
+}
+
+/* ..............END............. */
+
+/* ..........SECTION-7........... */
+.M7 {
+    background-color: rgb(243, 243, 243);
+}
+
+.S7 {
+    padding: 20px 0;
+    color: darkblue;
+}
+
+.S7 i {
+    color: rgb(255, 217, 0);
+}
+
+.S7 i:first-child {
+    margin-right: 5px;
+}
+
+.S7 h2 {
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+.S7 .Boxes {
+    display: flex;
+    padding: 10px;
+}
+
+.S7 .box {
+    padding: 10px;
+    background-color: white;
+}
+
+.S7 .box:nth-child(2) {
+    margin: 0 15px;
+}
+
+.S7 .box:nth-child(3) {
+    margin-right: 15px;
+}
+
+.S7 .box p {
+    padding-left: 5px;
+    color: rgb(147, 147, 147);
+}
+
+.S7 .box span {
+    padding: 10px 5px 20px;
+    display: block;
+}
+
+.S7 .box i {
+    padding: 3px;
+}
+
+/* ..............END............. */
+
+/* ..........SECTION-8........... */
+
+.S8 {
+    padding: 20px;
+    color: darkblue;
+    margin: 30px 0;
+}
+
+.S8 h2 {
+    padding: 20px 10px;
+    margin-top: 20px;
+    font-size: 33px;
+}
+
+.S8 .r1 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.S8 .r1 input {
+    width: 32.33%;
+    padding: 15px;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.S8 .r1 input:nth-child(2) {
+    margin: 0 15px;
+}
+
+.S8 .r1 textarea {
+    width: 100%;
+    padding: 15px 15px 50px;
+    margin: 15px 0;
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 20px;
+    background-color: rgb(243, 243, 243);
+}
+
+.S8 button {
+    background-color: rgb(255, 217, 0);
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 30PX;
+    color: whitesmoke;
+    transition: .6s;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.S8 button:hover {
+    color: red;
+    background-color: whitesmoke;
+}
+
+/* ..............END............. */
+
+/* ..........SECTION-9........... */
+
+.M9 {
+    background-color: rgb(243, 243, 243);
+}
+
+.S9 {
+    padding: 40px 20px 30px;
+    display: flex;
+    color: darkblue;
+}
+
+.S9 .left {
+    width: 40%;
+    padding: 10px;
+}
+
+.S9 .left .c1 {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.S9 .c1 h2 {
+    font-size: 50px;
+}
+
+.S9 .c1 p {
+    margin: 15px 0 20px;
+}
+
+.S9 .c2 {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.S9 .c2 a:first-child {
+    font-size: 50px;
+    color: darkblue;
+    margin: 25px 0;
+    display: table;
+    font-family: 'Domine', serif;
+}
+
+.S9 .c2 a:last-child {
+    padding: 8px 25px;
+    background-color: white;
+    color: darkblue;
+    border: 0;
+    border-radius: 20px;
+    display: table;
+    margin: 25px 0;
+}
+
+.S9 .c2 p {
+    line-height: 25px;
+}
+
+.S9 i {
+    font-size: 25px;
+    margin: 25px 5px 10px;
+    padding: 5px;
+    color: darkblue;
+}
+
+.S9 .right {
+    padding: 20px 20px 0;
+    width: 60%;
+}
+
+.S9 .right iframe {
+    padding: 15px 15px 0;
+}
+
+/* ..............END............. */
+/* ..........SECTION-10........... */
+
+.S10 {
+    padding: 20px;
+    width: 860px;
+}
+
+.S10 .list{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.S10 ul {
+    padding: 10px;
+}
+
+.S10 ul li {
+    list-style: none;
+}
+
+.S10 ul li a {
+    padding: 10px 10px 5px;
+    display: table;
+    color: darkblue;
+}
+
+.S10 ul li a:hover {
+    color: red;
+}
+
+/* ..............END............. */
+
+/* .............FOOTER........... */
+
+footer {
+    background-color: darkblue;
+    padding: 25px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ..............END............. */

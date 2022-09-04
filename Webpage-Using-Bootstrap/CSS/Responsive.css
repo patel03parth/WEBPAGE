@@ -1,0 +1,153 @@
+/* ...........Responsive......... */
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .center h1 {
+        font-size: 30px;
+    }
+
+    .banner {
+        margin-bottom: 30px;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    .S1 .box {
+        text-align: center;
+        padding: 0 30px
+    }
+
+    .S1 .bg-2 {
+        display: none;
+    }
+
+    .S1 .box ul {
+        display: block;
+    }
+
+}
+
+@media (min-width: 150px) and (max-width: 768px) {
+
+    header{
+        position: initial;
+    }
+
+    .H2 .nav-item{
+        padding: 0;
+    }
+
+    .H2 .nav-item.a{
+        display: none;
+    }
+    .H2 {
+        position: initial;
+    }
+
+    .H1 {
+        display: none;
+    }
+
+    .center {
+        top: 2%;
+        left: 0;
+        transform: translate(0);
+    }
+
+    .center h1 {
+        font-size: 30px;
+    }
+
+    .center p{
+        padding: 0 15px;
+    }
+
+    .center button{
+        font-size: 10px;
+    }
+
+    .banner {
+        margin-bottom: 30px;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    .S1 {
+        padding: 30px 0;
+        margin-top:0;
+    }
+
+    .S1 .box {
+        text-align: center;
+    }
+
+    .S1 .bg-2 {
+        display: none;
+    }
+
+    .S1 .box ul {
+        display: block;
+    }
+
+    .S1 .box .a {
+        padding: 0;
+    }
+
+    .S2{
+        text-align: center;
+    }
+
+    .S2 .links{
+        display: block;
+        padding: 0;
+    }
+
+    .svg{
+        display: none;
+    }
+
+    .S3{
+        padding: 0 20px;
+    }
+
+    .S3 .row h2{
+        font-size: 35px;
+    }
+
+    .S4 .col-lg-6{
+        text-align: center;
+    }
+
+    .S4 .col-lg-6 h2{
+        font-size: 35px;
+    }
+
+    .S6{
+        text-align: center;
+    }
+
+    .S6 img{
+        margin: 7px 0;
+    }
+
+    .end .social {
+        justify-content: center;
+    }
+
+    .end {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 150px) and (max-width: 1199px) {
+
+    .bottom .box h5 {
+        font-size: 18px;
+    }
+
+}

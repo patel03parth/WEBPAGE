@@ -1,0 +1,651 @@
+header {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    margin: 0 10px;
+    display: flex;
+}
+
+.logo img{
+    margin-right: 5px;
+}
+
+/* .......H1....... */
+
+.H1 {
+    padding: 10px 0;
+}
+
+.H1 .navbar {
+    justify-content: space-between;
+    padding: 0;
+}
+
+.H1 .navbar .navbar-nav:last-child {
+    justify-content: space-between;
+}
+
+.H1 a {
+    font-size: 15px;
+}
+
+.H1 a:hover {
+    background-color: rgb(57, 167, 57);
+}
+
+.H1 .navbar-nav:first-child i {
+    color: rgb(57, 167, 57);
+}
+
+/* .......H2....... */
+
+.H2 .navbar {
+    background-color: white;
+    padding: 0;
+}
+
+.H2 .navbar-nav a{
+    padding: 30px 0;
+}
+
+.H2 .navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.H2 .collapse {
+    justify-content: end;
+}
+
+.H2 .nav-link {
+    font-size: 12px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: rgb(57, 167, 57);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(57, 167, 57, .9);
+}
+
+.H2 .nav-item.a {
+    background-color: rgb(57, 167, 57);
+}
+
+.H2 .nav-item.a .nav-link a{
+    padding: 30px;
+}
+
+/* ......Banner...... */
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #004777b3;
+}
+
+/* .......Center....... */
+
+.center {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.center button {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.center .btn:focus {
+    box-shadow: none;
+}
+
+
+
+/* ............Section-1............. */
+
+
+
+/* ......bottom....... */
+
+.bottom {
+    position: absolute;
+    top: -70%;
+    right: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.bottom .row {
+    box-shadow: 0 0 10px 0 #888888;
+}
+
+.bottom .row .col-lg-4 {
+    position: relative;
+}
+
+.bottom .box {
+    text-align: center;
+    padding: 47px;
+    background-color: white;
+}
+
+.bottom .row .col-lg-4 .box:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.bottom .row .col-lg-4 .box i {
+    font-size: 40px;
+    color: rgb(57, 167, 57);
+}
+
+.bottom .row .col-lg-4 .bg-1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bottom .row .col-lg-4 .bg-1 img {
+    max-width: 100%;
+}
+
+.bottom .row .col-lg-4 .bg-1::before {
+    content: "";
+    position: absolute;
+    background-color: #004777b3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.S1 {
+    position: relative;
+    padding: 70px 0;
+    margin-top: 10%;
+}
+
+.S1 .box i {
+    font-size: 40px;;
+}
+
+.S1 .box .a {
+    padding-left: 25px;
+}
+
+.S1 .box ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.S1 .bg-2 {
+    position: absolute;
+    bottom: -3px;
+    left: 43%;
+    width: 230px;
+}
+
+.S1 .bg-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ..........END.......... */
+
+
+/* ............Section2............. */
+
+.S2 {
+    background: linear-gradient(rgba(16, 118, 186, 0.9), #004777b3), url(../img/horizontal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    color: white;
+}
+
+.S2 h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.S2 p {
+    font-size: 22px;
+}
+
+.S2 h2 a {
+    text-decoration: none;
+    color: rgb(57, 167, 57);
+}
+
+.S2 h2 a:hover {
+    color: #a8eb12;
+}
+
+.S2 .links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.S2 .links li {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.S2 .links li a {
+    display: block;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(57, 167, 57);
+}
+
+.S2 .links li a:hover {
+    color: #a8eb12;
+}
+
+/* .......Animation....... */
+.svg {
+    width: 1166px;
+    position: absolute;
+    top: -144%;
+    left: -17%;
+    bottom: -53%;
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}
+
+/* ..........Section3........... */
+
+.S3 {
+    padding: 30px 0;
+}
+
+.S3 .row h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.S3 .row i {
+    font-size: 50px;
+    color: rgb(57, 167, 57);
+}
+
+.S3 .row p {
+    font-size: 20px;
+}
+
+.swiper-wrapper {
+    padding: 70px 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    padding: 10px;
+}
+
+/* ..........END........ */
+
+/* ........Section4..... */
+
+.S4 {
+    background: linear-gradient(rgba(16, 118, 186, 0.9), #004777b3), url(../img/horizontal.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    color: white;
+}
+
+.S4 .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.S4 .col-lg-6 h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.S4 .col-lg-6 p {
+    font-size: 22px;
+}
+
+.S4 .col-lg-6 a {
+    text-decoration: none;
+    color: rgb(57, 167, 57);
+}
+
+.S4 .col-lg-6 a:hover {
+    color: #a8eb12;
+}
+
+.S4 .shade {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+select.form-control-lg:not([size]):not([multiple]) {
+    height: calc(2.875rem + 18px);
+}
+
+.S4 input {
+    font-size: 20px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.S4 button[type=submit] {
+    width: 100%;
+    padding: 19px;
+    border: 0;
+    border-radius: 3px;
+    background-color: rgb(57, 167, 57);
+    color: white;
+    font-weight: bold;
+}
+
+/* ..............END................ */
+
+/* ............Section-5............ */
+
+.S5 {
+    margin: 50px 0;
+}
+
+.S5 .row {
+    align-items: center;
+    margin: 20px 0;
+}
+
+.S5 .col-lg-12 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.S5 .col-lg-6.a img {
+    width: 100%;
+    height: 100%;
+}
+
+.S5 .col-lg-6.a p {
+    margin: 0;
+}
+
+.S5 .col-lg-6 h5 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.S5 .col-lg-6.a a {
+    color: rgb(57, 167, 57);
+    font-weight: 700;
+}
+
+
+/* ..............END................ */
+
+/* ............Section-6............ */
+
+.S6 {
+    background-color: #f2f0f0;
+    padding: 15px 0;
+}
+
+.S6 img{
+    margin: 0 8px;
+}
+
+.S6 a {
+    filter: grayscale();
+}
+
+.S6 a:hover {
+    filter: none;
+}
+
+/* ..............END................ */
+
+/* ..............FOOTER............. */
+
+footer {
+    background-color: #171740;
+    color: white;
+}
+
+/* ...........LEFT............. */
+
+footer .row.ab {
+    align-items: center;
+    padding: 70px 0;
+}
+
+.left .row.a {
+    align-items: center;
+}
+
+footer img {
+    width: 55px;
+}
+
+footer .brand {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer .logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+footer .brand:hover {
+    color: rgb(57, 167, 57);
+}
+
+footer .left p {
+    margin: 6px 0 10px;
+}
+
+footer address {
+    margin: 6px 0;
+}
+
+footer .col-lg-6 a {
+    color: white;
+    margin: 6px 0;
+    display: table;
+    text-decoration: none;
+}
+
+footer .col-lg-6 a:hover {
+    color: rgb(57, 167, 57);
+}
+
+footer .left i {
+    color: rgb(57, 167, 57);
+    padding: 5px 5px 5px 0;
+}
+
+footer .left h5 {
+    margin: 0;
+}
+
+footer .row.a .col-lg-3:nth-child(2) {
+    padding-top: 13px;
+}
+
+footer .links {
+    padding-left: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+footer .links a {
+    text-decoration: none;
+}
+
+footer .links li a:hover {
+    color: rgb(57, 167, 57);
+}
+
+footer ul li:not(:first-child, :last-child) {
+    margin: 20px 0;
+}
+
+/* ..............RIGHT............. */
+
+.right .row {
+    align-items: center;
+}
+
+.right .row .col-lg-6:first-child {
+    padding-top: 15px;
+}
+
+footer .right .btn {
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+}
+
+footer .right h6 {
+    margin: 20px 0;
+}
+
+footer input[type=email] {
+    background-color: #5d5d5d57;
+    border: 0;
+    margin-top: 25px;
+}
+
+footer .right i {
+    color: rgb(57, 167, 57);
+    padding: 5px 5px 5px 0;
+}
+
+/* .......last-section...... */
+
+.container-fluid {
+    background-color: #191952;
+    color: white;
+}
+
+.end a {
+    color: green;
+    text-decoration: none;
+}
+
+.end a:hover {
+    color: #a8eb12;
+
+}
+
+.end .social {
+    display: flex;
+    justify-content: end;
+}
+
+.end .social i {
+    padding: 20px;
+    margin: 0 3px;
+    background-color: #5d5d5d57;
+    color: white;
+}
+
+.end .social i:hover {
+    background-color: rgb(57, 167, 57);
+}
+
+.end .row {
+    align-items: center;
+}
+
+.end p a {
+    display: inline;
+    margin: 0 5px;
+}
+
+.end p {
+    margin: 0;
+}
+
+

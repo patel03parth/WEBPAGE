@@ -1,0 +1,182 @@
+@media (min-width: 150px) and (max-width: 424px){
+
+    header{
+        position: initial;
+    }
+
+    .navbar-light .navbar-brand {
+        color: black;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+
+    .banner img{
+        height: 100%;
+    }
+
+    .collapse .navbar-nav:first-child {
+        margin: 0;
+    }
+
+    .collapse .navbar-nav:nth-child(2) {
+        margin: 0;
+    }
+
+    .collapse .navbar-nav:first-child a {
+        padding: 0;
+    }
+
+    .navbar{
+        padding: 10px;
+    }
+
+    .nav-item {
+        padding: 14px 15px;
+    }
+
+    .logo{
+        padding: 0;
+        border-right: 0;
+    }
+
+    .S1{
+        top: 0;
+        left: unset;
+        transform: unset;
+    }
+
+    .carousel-indicators {
+        right: -85%;
+    }
+
+    .S1 h1 {
+        font-size: 30px;
+    }
+
+    .S1 p{
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .S1 button{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .Button button:first-child {
+        margin-right: 10px;
+    }
+    
+    
+
+    /*......Section-2..... */
+
+    .S2 .Box{
+        position: unset;
+        top: unset;
+    }
+
+    .S2 .col-lg-3{
+        padding-left: 0;
+        padding: 10px;
+    }
+
+    .S2 .col-lg-6{
+        padding-left: 0;
+        padding: 10px;
+    }
+}
+
+
+@media (min-width:425px) and (max-width: 768px) {
+
+    header{
+        position: initial;
+    }
+
+    .navbar-light .navbar-brand {
+        color: black;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+    }
+
+    .banner img{
+        height: 100%;
+    }
+
+    .collapse .navbar-nav:first-child {
+        margin: 0;
+    }
+
+    .collapse .navbar-nav:nth-child(2) {
+        margin: 0;
+    }
+
+    .collapse .navbar-nav:first-child a {
+        padding: 0;
+    }
+
+    .navbar{
+        padding: 10px;
+    }
+
+    .nav-item {
+        padding: 14px 15px;
+    }
+
+    .logo{
+        padding: 0;
+        border-right: 0;
+    }
+
+    .S1{
+        top: 0;
+        left: unset;
+        transform: unset;
+    }
+
+    .carousel-indicators {
+        right: -85%;
+    }
+
+    .S1 h1 {
+        font-size: 35px;
+    }
+
+    .S1 p{
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .S1 button{
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .Button button:first-child {
+        margin-right: 10px;
+    }
+    
+    
+
+    /*......Section-2..... */
+
+    .S2 .Box{
+        position: unset;
+        top: unset;
+    }
+
+    .S2 .col-lg-3{
+        padding-left: 0;
+        padding: 10px;
+    }
+
+    .S2 .col-lg-6{
+        padding-left: 0;
+        padding: 10px;
+    }
+}

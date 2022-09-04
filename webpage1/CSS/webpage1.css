@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container1 {
+    width: 1263px;
+    margin: auto;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #bab9b9;
+}
+
+/* ..........HEADER.......... */
+
+.M1 {
+    width: 1050px;
+    margin: auto;
+}
+
+.M1 a {
+    color: #000;
+}
+
+.H1 {
+    display: flex;
+    float: left;
+}
+
+.H2 {
+    display: flex;
+    float: right;
+}
+
+.H1 a {
+    padding: 10px 0px 10px 3px;
+}
+
+.H1 i {
+    padding: 10px 3px 10px 0px;
+}
+
+.H2 a {
+    padding: 10px 0px 10px 3px;
+}
+
+.H2 i {
+    padding: 10px 3px 10px 0px;
+}
+
+.H2 img {
+    padding: 13px 0px;
+}
+
+.H1 p {
+    margin: 10px;
+}
+
+.H2 p {
+    margin: 10px;
+}
+
+.H2 img {
+    max-width: 20px;
+}
+
+/* .......M2...... */
+
+.M2 {
+    width: 1050px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    display: flex;
+    margin: 18px 0px 18px 10px;
+    width: 16%;
+}
+
+.logo p {
+    font-size: 40px;
+}
+
+.logo img {
+    width: 30%;
+    padding: 3px;
+}
+
+.menu {
+    float: right;
+    margin: 30px 20px 0px 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu ul li a {
+    color: #000;
+}
+
+.menu ul li a:hover {
+    color: #22a0d3;
+}
+
+.menu i {
+    padding: 10px;
+    background-color: #22a0d3;
+    border-radius: 50%;
+    color: azure;
+}
+
+/* .........Header-END........... */
+
+/* ..........section-2........ */
+.BIG1 {
+    background-image: url(../img/H1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 455px;
+}
+
+.top {
+    text-align: center;
+    color: azure;
+    margin-bottom: 65px;
+}
+
+.top h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.content {
+    position: absolute;
+    /* display: none; */
+    background-color: #fff;
+}
+
+.content ul li {
+    background-color: none;
+}
+
+.content input {
+    padding: 5px 0px 5px 5px;
+}
+
+.content li:nth-child(1) {
+    padding: 10px 10px 10px 20px;
+    width: 37.70%;
+}
+
+.content li:nth-child(2) {
+    padding: 10px 10px 10px 10px;
+    width: 15%;
+}
+
+.content li:nth-child(3) {
+    padding: 10px 10px 10px 10px;
+    width: 15%;
+}
+
+.content li:nth-child(4) {
+    padding: 10px 10px 10px 10px;
+    width: 6%;
+}
+
+.content li:nth-child(5) {
+    padding: 10px 10px 10px 10px;
+    width: 6%;
+}
+
+.content li:nth-child(6) {
+    padding: 10px 20px 10px 10px;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.content li input {
+    display: block;
+}
+
+.P1 ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown:first-child {
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.a2 li:nth-child(n) {
+    background-color: #22a0d3;
+}
+
+.P1 {
+    position: relative;
+    display: flex;
+}
+
+.P1 button {
+    padding: 9px 55px;
+    background-color: #22a0d3;
+    border: 0;
+    border-radius: 5px;
+}
+
+.P1 button:hover {
+    background-image: linear-gradient(98deg, #2f93df, rgb(229, 8, 245));
+}
+
+/* .........END............. */
+
+/* ..........SECTION3.......... */
+.M2 {
+    text-align: center;
+}
+
+.C1 {
+    width: 770px;
+    margin: auto;
+}
+
+.C1 p {
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.position {
+    /* justify-content: space-around; */
+    display: flex;
+}
+
+.relative {
+    position: relative;
+    height: 85px;
+    width: 33.33%;
+}
+
+.relative button {
+    background-color: #bab9b9;
+    padding: 25px 62px 10px;
+    border: 0;
+    border-radius: 5px;
+    margin: 20px;
+    width: 300px;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.absolute i {
+    background-color: #22a0d3;
+    border-radius: 50%;
+    padding: 7px;
+    margin: 3px;
+    color: #fff;
+}
+
+.C1 h3 {
+    margin: 50px 0px 20px;
+}
+
+/* .........END............. */
+
+/* ..........SECTION4.......... */
+.C2 {
+    background-color: #eaeaea;
+    padding: 50px 0px;
+}
+
+.C2 h3:first-child {
+    margin-bottom: 20px;
+}
+
+.PICS {
+    display: flex;
+}
+
+.S1 {
+    width: 25%;
+    margin-right: 15px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #bab9b9;
+}
+
+.pic1 {
+    width: 100%;
+}
+
+.pic1 img {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.a {
+    padding: 10px;
+}
+
+.a p {
+    float: left;
+}
+
+.a h3 {
+    float: right;
+}
+
+.a del {
+    float: right;
+}
+
+.b1 h4 {
+    float: right;
+}
+
+.b1 p {
+    float: left;
+}
+
+.a aside {
+    text-decoration: line-through;
+    float: right;
+}
+
+.b1 {
+    padding: 10px 0px;
+    border-top: 1px solid #bab9b9;
+    margin: 10px;
+}
+
+/* ...........END............. */
+
+/* ..........SECTION5.......... */
+.C3 {
+    padding: 50px 0px;
+}
+
+.C3 h3:first-child {
+    margin-bottom: 20px;
+}
+
+.PICS1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.S2 {
+    width: 25%;
+    margin-right: 20px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #bab9b9;
+}
+
+/* ...........END............. */
+
+/* ..........FOOTER.......... */
+.C4 {
+    width: 1263px;
+    margin: auto;
+    background-color: #000;
+    color: #bab9b9;
+}
+
+.X {
+    display: flex;
+}
+
+.flogo {
+    display: flex;
+    margin: 15px 0px;
+}
+
+.flogo p {
+    font-size: 60px;
+    color: #8a8a8a;
+}
+
+.flogo img {
+    width: 27%;
+    padding: 6px;
+}
+
+.x1 {
+    width: 25%;
+    margin: 50px 0px;
+}
+
+.x1 a {
+    font-style: italic;
+}
+
+.x1 i {
+    padding: 10px;
+    width: 40px;
+    border-radius: 6px;
+    text-align: center;
+    color: #fff;
+}
+
+.x2 {
+    width: 25%;
+    margin: 50px 0px;
+    padding-left: 30px;
+}
+
+.x2 p {
+    margin-top: 7px;
+}
+
+.x3 {
+    width: 25%;
+    margin: 50px 0px;
+    padding-left: 14px;
+}
+
+.x3 h3:first-child {
+    margin-bottom: 20px;
+}
+
+.x3 i {
+    font-size: 20px;
+    color: #2f93df;
+    margin: 15px 0px;
+}
+
+.x3 a {
+    font-size: 20px;
+    color: #2f93df;
+    margin: 15px 0px;
+}
+
+.x3 input{
+    padding: 11px;
+    width: 202px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: 1px solid;
+    border-right: 0;
+}
+.x3 button {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: 1px solid;
+    padding: 11px 12px;
+    border-left: 0;
+    background-color: #22a0d3;
+}
+
+/* ...........END............. */
